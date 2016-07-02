@@ -1,4 +1,17 @@
 
+header {
+  background-color: #b20000;
+  text-align: center;
+  border-style: inset;
+  border-width: thick;
+  border-color: black;
+  border-radius: 25px;
+}
+
+body {
+  background-color: #990000;
+}
+
 h1 {
   font-family: arial;
 }
@@ -10,5 +23,9 @@ p {
 .blog {
   font-family: cursive;
   background-color: #999;
-  padding: 15px;
+  padding: 5px;
+  border-style: solid;
+  border-width: thin;;
+  border-color: black;
+  border-radius: 25px;
 }
