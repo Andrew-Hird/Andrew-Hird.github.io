@@ -4,7 +4,6 @@ header {
   margin: auto;
   width: 60%;
   text-align: center;
-  color: ;
   border-style: inset;
   border-width: 10px;
   border-color: #B22222;
@@ -26,10 +25,14 @@ h1 {
 p {
   font-family: arial;
   margin:auto;
-  width: 40%;
+  width: 60%;
+  padding: 5px;
   background-color: orange;
 }
 
+ul {
+  list-style-type: none;
+}
 
 
 .blog {
