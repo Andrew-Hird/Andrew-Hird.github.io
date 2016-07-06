@@ -32,6 +32,11 @@ p {
 
 ul {
   list-style-type: none;
+  font-family: arial;
+  margin: auto;
+  width: 60%;
+  padding: 5px;
+  background-color: orange;
 }
 
 
