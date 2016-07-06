@@ -12,8 +12,10 @@ header {
 }
 
 body {
-  background-color: #990000;
+  /*background-color: #990000;*/
+  background-image: url("http://2.bp.blogspot.com/-pATX0YgNSFs/VP-82AQKcuI/AAAAAAAALSU/Vet9e7Qsjjw/s1600/Cat-hd-wallpapers.jpg");
   text-align: center;
+  background-attachment: fixed;
 }
 
 h1 {
