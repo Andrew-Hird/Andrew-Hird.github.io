@@ -1,6 +1,6 @@
 
 * {
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -41,21 +41,22 @@ ul {
 }
 
 header {
-  margin-top:35px;
+  margin-top:75px;
 }
 
 nav {
+  width: 100%;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   display: block;
-  width: 47%;
   margin-bottom: 20px;
 
 
 }
 
 nav ul {
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -66,7 +67,6 @@ nav ul {
 nav li {
     float: left;
     display: inline-block;
-
 }
 
 nav li a, .dropbtn {
