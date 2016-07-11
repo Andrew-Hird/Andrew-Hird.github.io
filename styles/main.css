@@ -5,9 +5,10 @@
 }
 
 h1 {
+  font-family: arial;
   background-color: #b20000;
   margin: auto;
-  width: 60%;
+  width: 50%;
   text-align: center;
   border-style: inset;
   border-width: 10px;
@@ -20,11 +21,6 @@ body {
   background-image: url("http://2.bp.blogspot.com/-pATX0YgNSFs/VP-82AQKcuI/AAAAAAAALSU/Vet9e7Qsjjw/s1600/Cat-hd-wallpapers.jpg");
   text-align: center;
   background-attachment: fixed;
-}
-
-h1 {
-  font-family: arial;
-
 }
 
 p {
@@ -45,13 +41,17 @@ ul {
 }
 
 header {
-  margin-top:25px;
+  margin-top:35px;
 }
 
 nav {
-  margin-top: 20px;
-  margin-bottom: 100px;
   position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 47%;
+  margin-bottom: 20px;
+
 
 }
 
