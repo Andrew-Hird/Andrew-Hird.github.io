@@ -1,4 +1,8 @@
 
+header {
+  margin-top: 70px;
+}
+
 nav {
   position: fixed;
   top: 0;
