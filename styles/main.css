@@ -7,6 +7,10 @@ h1 {
   text-align: right;
 }
 
+h4 {
+   border-bottom: dotted black;
+}
+
 header {
   width: ;
   margin-top: 60px;
@@ -118,6 +122,10 @@ nav li.dropdown {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.recent1 {
+  padding-right: 40px;
 }
 
 .blog-recent {
