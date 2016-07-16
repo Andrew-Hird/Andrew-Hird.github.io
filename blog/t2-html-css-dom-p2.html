@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+
+<head>
     <title>Technical Blog Part 2</title>
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
 
-<header><h1>Tecnical Blog Part 2</h1></header><br>
-
-  <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropbtn">Cultural Blogs</a>
-        <div class="dropdown-content">
-        <a href="c1-reflection-blog.html">EDA Reflection</em></a>
-        <a href="c1-time-and-habits-blog.html">Time and Habits</a>
-        <a href="c2-emotional-intelligence.html">Emotional Intelligence</a>
-        </li>
+<body class="container">
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blogs.html">Blogs</a></li>
+            <li><a href="../contact-me">Contact Me</a></li>
+        </ul>
         </div>
-    <li class="dropdown">
-      <a href="#" class="dropbtn">Technical Blogs</a>
-      <div class="dropdown-content">
-      <a href="t2-html-css-dom-p1.html">Technical Blog Part: 1</a>
-      <a href="t2-html-css-dom-p2.html">Technical Blog Part: 2</a>
-      </div>
-    </li>
-    </ul>
-  </nav><br>
+    </nav>
+
+    <header>
+        <div class="row">
+            <div class="two columns">
+                <img src="../images/ah-comic.png" alt="logo" height="75" width="75">
+            </div>
+            <div class="ten columns">
+                <h1>Andrew Hird</h1>
+                <h6>Web Developer to be</h6>
+            </div>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="nine columns blog">
+            <h3>Technical Blog Part 2</h3>
+            <p><em>Grid based design</em> is breaking the layout of the page into different boxes. By doing this it is really easy to layout the page and work out what is going to go where and how to do it. A page might not always look like it is sitting on a grid, but if you break it down and draw boxes round the sections, you'll soon see that it is.</p><br>
+            <p>Responsive webpages are great because they'll look  good no matter what size screen you are on. By elements moving closer together as the screen size gets smaller. This makes making pages for different types of devices a lot easier and still look good.</p><br>
+            <p><em>Semantic structure</em> breaks the page up into different parts. As you can see below.
+              <img src="../images/semantic-structure.gif" alt=""><br>
+              Each section has a different purpose of what information would go in it. For example the header area would usually house the name of the page or logo and the nav section would have any links you might use to get around the website.
+            </p><br>
+            <p>I did find the process of setting up boxes and making a responsive webpage tricky to start with and had to follow quite a few instructions. I am finding that I am referring to guides quite a bit a this stage and am looking forward to when I can do most things by memory!</p>
 
 
-  <body>
+        </div>
 
-      <div class="blog">
-        <p><em>Grid based design</em> is breaking the layout of the page into different boxes. By doing this it is really easy to layout the page and work out what is going to go where and how to do it. A page might not always look like it is sitting on a grid, but if you break it down and draw boxes round the sections, you'll soon see that it is.</p><br>
-        <p>Responsive webpages are great because they'll look  good no matter what size screen you are on. By elements moving closer together as the screen size gets smaller. This makes making pages for different types of devices a lot easier and still look good.</p><br>
-        <p><em>Semantic structure</em> breaks the page up into different parts. As you can see below.
-          <img src="../images/semantic-structure.gif" alt=""><br>
-          Each section has a different purpose of what information would go in it. For example the header area would usually house the name of the page or logo and the nav section would have any links you might use to get around the website.
-        </p><br>
-        <p>I did find the process of setting up boxes and making a responsive webpage tricky to start with and had to follow quite a few instructions. I am finding that I am referring to guides quite a bit a this stage and am looking forward to when I can do most things by memory!</p>
+        <aside>
+            <div class="three columns blog-hide-550 fixed">
 
-
-
-    <a href="../index.html">Home</a>
-  </div><br>
+                <h5>About Me</h5>
+                <p>
+                    Hello my name is Andrew Hird, on this website you can find what I have learned at Enspiral Dec Academy so far. Feel free to click about and read some of my blog posts.
+                </p>
+                <img src="../images/andrew1.jpg" alt="" class="blog-pic">
+            </div>
+        </aside>
+    </div>
 
 
 
-  </body>
+    <footer>
+        <p>
+            © Andrew Hird 2016
+        </p>
+    </footer>
+
+</body>
+
 </html>
