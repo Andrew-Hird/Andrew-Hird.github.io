@@ -18,6 +18,11 @@ h4 {
 
 h6 {
   text-align: right;
+  font-style: italic;
+}
+
+.blog-link-text h6 {
+  font-style: italic;
 }
 
 header {
@@ -53,9 +58,13 @@ footer {
 
 .blog-link-flex {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: row-reverse;
+}
+
+.box:hover {
+  background-color: #797979;
 }
 
 .box {
@@ -69,7 +78,7 @@ footer {
 }
 
 .blog-link-flex a {
-  padding-top: 6%;
+  padding-top: ;
   font-size: 10px;
   color: black;
 }
